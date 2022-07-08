@@ -4,9 +4,9 @@ import { Contact } from '../models/contact.class';
 
 const ComponentB = ({contact}) => {
     
-    const [Conectado, setState] = useState(false);
+    const [Conectado, setConectado] = useState(false);
     const changeStatus = () => {
-       setState(!Conectado)
+       setConectado(!Conectado)
     }
     return (
         <div>
