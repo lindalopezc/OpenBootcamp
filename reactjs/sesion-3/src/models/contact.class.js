@@ -8,7 +8,7 @@ export class Contact{
     constructor(nombre, apellido, email, conectado){
      this.Nombre = nombre;
      this.Apellido = apellido;
-     this.completed = email;
+     this.Email = email;
      this.Conectado = conectado
     }
  }
